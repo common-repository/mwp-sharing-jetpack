@@ -1,0 +1,21 @@
+.sd-social-icon-text li.share-mwp a.sd-button > span {
+	background: url('mwp.png') no-repeat;
+	padding-left: 20px;
+}
+
+.sd-social-icon .sd-content ul li[class*='share-'].share-mwp a.sd-button {
+	background: #2185C7 url('mwp-white.png') no-repeat;
+	color: #fff !important;
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font: 400 16px/1 Genericons;
+	vertical-align: top;
+	position: relative;
+	top: 0;
+	text-align: center;
+}
+
+.sd-social-icon .sd-content ul li[class*='share-'].share-mwp a.sd-button:before {
+	content: '\f415';
+}
